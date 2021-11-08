@@ -33,14 +33,7 @@ background-image: linear-gradient(to right top, #df4ee4, #5347be, #1882c1, #0a73
 	width: 80%;border-radius: 15px;
 }
 
-.room_name
-{
-	cursor: pointer;
-	font-size: 20px;
-}
 
 
-#logout
-{
-	font-size: 20px; float: right;
-}
+
+
