@@ -1,6 +1,7 @@
 #logout
 {
-	font-size: 20px; float: right;
+	font-size: 20px; 
+	float: right;
 }
 .room_name
 {
@@ -10,9 +11,14 @@
 html, body
 {
   height: 100%;
-  margin-top: 100;
+  margin: 0;
 }
 body
 {
 background-image: linear-gradient(to left top, #f60ade, #d8ba0e, #d84b98, #27852b, #cf4610ca);
+}
+
+.header
+{
+margin-top: 100px;
 }
