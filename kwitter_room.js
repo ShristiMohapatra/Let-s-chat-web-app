@@ -1,21 +1,20 @@
 // Your web app's Firebase configuration
 // Your web app's Firebase configuration
-// Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyDKgLScFUg2z9Lw-anz-pUfyA3B0r1m54Q",
-  authDomain: "project-94-69dc1.firebaseapp.com",
-  databaseURL: "https://project-94-69dc1-default-rtdb.firebaseio.com",
-  projectId: "project-94-69dc1",
-  storageBucket: "project-94-69dc1.appspot.com",
-  messagingSenderId: "622458341122",
-  appId: "1:622458341122:web:068662ef60c0da4d73e41b"
-};
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+      apiKey: "AIzaSyDKgLScFUg2z9Lw-anz-pUfyA3B0r1m54Q",
+      authDomain: "project-94-69dc1.firebaseapp.com",
+      databaseURL: "https://project-94-69dc1-default-rtdb.firebaseio.com",
+      projectId: "project-94-69dc1",
+      storageBucket: "project-94-69dc1.appspot.com",
+      messagingSenderId: "622458341122",
+      appId: "1:622458341122:web:068662ef60c0da4d73e41b"
+    };
+    
+    // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
 
 user_name = localStorage.getItem("user_name");
-document.getElementById("user_name").innerHTML = "Welcome "+user_name;
+
      
 function getData()
  {firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("output").innerHTML = "";snapshot.forEach(function(childSnapshot) {childKey  = childSnapshot.key;
@@ -46,6 +45,9 @@ function redirectToRoomName(name)
       localStorage.setItem("room_name",name);
       window.location = "kwitter_page.html";
 }
+localStorage.setItem("room_name",room_name);
+window.location = "kwitter_page.html";
+
 
 function logout()
 {
