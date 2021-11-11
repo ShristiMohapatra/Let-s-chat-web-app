@@ -1,0 +1,68 @@
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;
+    bottom: 0px;width: 100%;
+    background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+    background-color: linear-gradient(to left top, #650af6, #d8ba0e, #4bd3d8, #c0871d, #cf4610ca);;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+#logout
+{
+	font-size: 20px; 
+	float: right;
+}
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+body
+{
+background-image: linear-gradient(to left top, #f60ade, #d8ba0e, #d84b98, #27852b, #cf4610ca);
+}
+
+.header
+{
+margin-top: 100px;
+}
